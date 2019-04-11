@@ -72,7 +72,7 @@ public double gastoAcumulado(String nombreRubro) {
 public void informarConsumosPorMes() {
 	for(int i=0;i<rubros.size();i++) {
 		System.out.println("Rubro: "+rubros.get(i).getNombre());
-		for(int o=0;i<Mes.values().length;o++) {
+		for(int o=0;o<Mes.values().length;o++) {
 			System.out.println("Mes: "+Mes.values()[o]);
 			System.out.println("Consumo: "+rubros.get(i).getTotalGastos(Mes.values()[o]));
 		}
