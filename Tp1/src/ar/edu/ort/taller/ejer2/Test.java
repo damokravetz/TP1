@@ -39,6 +39,7 @@ public class Test {
 			miAtleta.setSegundos(segundos);
 			atletas.add(miAtleta);
 			System.out.println("ingrese un atleta o 'f' para finalizar");
+			input.nextLine();
 			atleta=input.nextLine();
 		}
 		ganadores=getAtletasPorSegundos(atletas, getMenorTiempo(atletas));
