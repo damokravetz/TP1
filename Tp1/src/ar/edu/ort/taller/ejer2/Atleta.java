@@ -4,8 +4,8 @@ public class Atleta {
 private String nombre;
 private double segundos;
 
+
 public Atleta(String nombre, double segundos) {
-	super();
 	this.nombre = nombre;
 	this.segundos = segundos;
 }
