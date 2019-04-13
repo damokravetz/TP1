@@ -6,7 +6,7 @@ public class Test {
 
 	static ArrayList<Integrante> integrantes = new ArrayList<>();
 	static Aniov2 anio;
-	
+
 	public static void main(String[] args) {
 		// TODO Apéndice de método generado automáticamente
 
@@ -17,7 +17,7 @@ public class Test {
 		integrantes.add(integrante2);
 		System.out.println(getDiasAnio());
 	}
-	
+
 	private static String getDiasAnio() {
 		String retorno = "";
 		for (Integrante integrante : integrantes) {

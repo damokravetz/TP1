@@ -28,13 +28,4 @@ public class Test {
 		return retorno;
 	}
 
-	/*
-	 * En el programa principal mostrá cuántos días transcurrieron antes del
-	 * comienzo del año y qué día del año es el día de cumpleaños de cada
-	 * integrante del grupo. Para discutir en clase o a través del Aula Virtual:
-	 * Si el método diasTranscurridos(..) es usado una y otra vez, ¿hay alguna
-	 * manera que evitar que el cálculo de los días transcurridos se haga
-	 * permanentemente? Si la hay, modificá la clase para mejorar su
-	 * performance.
-	 */
 }

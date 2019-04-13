@@ -9,22 +9,22 @@ public class Rubro {
 		this.nombre = nombre;
 		inicializarGastos();
 	}
-	
+
 	private void inicializarGastos() {
 		this.gastosPorMes = new double[12];
 		for (int i = 0; i < gastosPorMes.length; i++) {
-			gastosPorMes[i]=0;
+			gastosPorMes[i] = 0;
 		}
 	}
-	
+
 	public void agregarGasto(Mes mes, double importe) {
-		gastosPorMes[mes.ordinal()] += importe; 
+		gastosPorMes[mes.ordinal()] += importe;
 	}
-	
+
 	public double getTotalGastos(Mes mes) {
 		return gastosPorMes[mes.ordinal()];
 	}
-	
+
 	public String getNombre() {
 		return nombre;
 	}

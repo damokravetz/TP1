@@ -10,22 +10,27 @@ public class Integrante {
 		this.diaCumple = diaCumple;
 		this.mesCumple = mesCumple;
 	}
-	
+
 	public String getNombre() {
 		return nombre;
 	}
+
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
 	public int getDiaCumple() {
 		return diaCumple;
 	}
+
 	public void setDiaCumple(int diaCumple) {
 		this.diaCumple = diaCumple;
 	}
+
 	public int getMesCumple() {
 		return mesCumple;
 	}
+
 	public void setMesCumple(int mesCumple) {
 		this.mesCumple = mesCumple;
 	}
